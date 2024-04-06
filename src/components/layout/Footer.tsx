@@ -1,11 +1,11 @@
 import { FC } from 'react';
 
-function Footer(): FC {
+const Footer: FC = () => {
   return (
-    <footer className='fixed bottom-0 left-0 right-0 flex items-center justify-center bg-gray-200 text-blue-400 h-20'>
-        <p>Copyright &copy; Alex Tran</p>
+    <footer className='fixed bottom-0 left-0 right-0 bg-gray-200 text-orange-600 h-12 flex justify-center items-center'>
+      <p>&copy; Adel Ansari</p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
